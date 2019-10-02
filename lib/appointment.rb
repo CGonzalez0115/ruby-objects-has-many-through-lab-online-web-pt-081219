@@ -13,11 +13,11 @@ class Appointment
     @@all
   end
 
-  def self.patient
+  def patient
     @patient
   end
 
-  def self.doctor
+  def doctor
     @doctor
   end
 end
