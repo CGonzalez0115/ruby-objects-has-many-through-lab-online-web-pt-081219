@@ -29,4 +29,10 @@ class Doctor
       appointment.doctor
     end
   end
+
+  def patients
+    Appointment.all.map do |appointment|
+      appointment.patient
+    end
+  end
 end
