@@ -1,5 +1,5 @@
 class Patient
-  attr_reader :name, :date, :doctor
+  attr_reader :name, :doctor, :date
 
   @@all = []
   def initialize(name)
